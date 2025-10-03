@@ -1,20 +1,25 @@
 import React from 'react'
-// import{UpdateFollower} from "react-mouse-follower"
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
+import Services from './components/Services/services'
+import Banner from './components/Banner/Banner'
+import Bannertext from './components/BannerText/BannerText'
+import Blogs from './components/Blogs/Blogs'
+import Footer from './components/Footer/Footer'
+
+
 
 const App = () => {
   return (<main className='overflow-x-hidden '>
-    {/* <UpdateFollower 
-    mouseOptions={{
-       backgroundColor:"white",
-  zIndex:999,
-  followSpeed:1.5,
-    }}> */}
+
 
     <Navbar/>
     <Hero/>
-    {/* </UpdateFollower> */}
+    <Services/>
+    <Banner/>
+    <Bannertext/>
+<Blogs/>
+<Footer/>
   </main>
 )}
 
